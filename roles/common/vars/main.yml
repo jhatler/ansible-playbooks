@@ -1,0 +1,39 @@
+---
+monitoring_packages:
+  - htop
+  - iotop
+  - iftop
+  - iptraf
+  - glances
+  - pv
+  - tcpdump
+utility_packages:
+  - apt-transport-https
+  - bash-completion
+  - byobu
+  - ca-certificates
+  - curl
+  - debconf-utils
+  - dnsutils
+  - dh-python
+  - e2fslibs
+  - e2fsprogs-l10n
+  - gawk
+  - git
+  - hwinfo
+  - jq
+  - language-pack-gnome-en
+  - language-pack-gnome-en-base
+  - lsof
+  - makedev
+  - mosh
+  - nano
+  - ntpdate
+  - resolvconf
+  - rsync
+  - software-properties-common
+  - ubuntu-server
+  - vim
+  - wamerican
+  - wbritish
+  - wget
