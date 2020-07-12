@@ -16,3 +16,21 @@
     state: present
     cache_valid_time: 14400
     update_cache: yes
+- name: Install emacs build dependencies
+  apt:
+    name: "{{ emacs_dependencies }}"
+    state: present
+    cache_valid_time: 14400
+    update_cache: yes
+- name: Install mu4e build dependencies
+  apt:
+    name: "{{ mu4e_deps }}"
+    state: present
+    cache_valid_time: 14400
+    update_cache: yes
+- name: Install emacs package dependencies
+  apt:
+    name: "{{ emacs_package_deps }}"
+    state: present
+    cache_valid_time: 14400
+    update_cache: yes

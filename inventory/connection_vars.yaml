@@ -5,7 +5,7 @@ all:
     ansible_become: yes
   hosts:
     jemacs:
-      ansible_user: jeremy
+      ansible_user: jj
       ansible_password: !vault |
           $ANSIBLE_VAULT;1.1;AES256
           35336262363830306137663330333136623766326534353462363261393966323834343162396563
