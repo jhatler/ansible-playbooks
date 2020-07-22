@@ -3,3 +3,9 @@
   tasks:
   - import_role:
       name: common
+  - import_role:
+      name: chrome
+  - import_role:
+      name: docker
+  - import_role:
+      name: dropbox

@@ -323,3 +323,11 @@ mu4e_deps:
   - x11proto-randr-dev
   - x11proto-record-dev
   - x11proto-xinerama-dev
+npm_deps:
+  - vmd
+  - vscode-css-languageserver-bin
+  - vscode-html-languageserver-bin
+  - yaml-language-server
+  - bash-language-server
+  - intelephense
+  - prettier

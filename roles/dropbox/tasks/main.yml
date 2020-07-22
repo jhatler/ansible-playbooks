@@ -1,0 +1,14 @@
+---
+- name: Add dropbox apt key
+  apt_key:
+    keyserver: pgp.mit.edu
+    id: 1C61A2656FB57B7E4DE0F4C1FC918B335044912E
+- name: add dropbox apt repo
+  apt_repository:
+    state: present
+    repo: deb https://linux.dropbox.com/ubuntu disco main
+    filename: dropbox
+- name: install dropbox
+  apt:
+    name: dropbox
+    state: present
